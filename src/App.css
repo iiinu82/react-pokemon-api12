@@ -36,3 +36,24 @@
   transform: translateY(5px);
   box-shadow: none;
 }
+@media (max-width: 1450px) {
+  .pokemonCardContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1150px) {
+  .pokemonCardContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 880px) {
+  .pokemonCardContainer {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .pokemonCardContainer {
+    grid-template-columns: 1fr;
+  }
+}
