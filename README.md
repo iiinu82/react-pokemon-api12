@@ -1,3 +1,32 @@
+# Pokémon Gallery - PokeAPIを使ったポケモン図鑑
+
+Reactで作成したシンプルで可愛いポケモン一覧サイトです。  
+**PokeAPI** からデータを取得して、ポケモンの画像・名前・タイプ・重さ・高さ・アビリティを表示します。  
+「次へ」「前へ」ボタンで20匹ずつページネーションも可能です！
+
+## デモ（ライブプレビュー）
+https://react-pokemon-api12.vercel.app/
+
+## 主な機能
+- **PokeAPIからリアルタイムデータ取得**（ポケモン20匹ずつ表示）
+- **ページネーション**（前へ / 次へボタン）
+- **各ポケモンカード表示**
+  - 通常の姿 + 色違いの画像
+  - ID・名前・タイプ
+  - 重さ・高さ・アビリティ
+
+- ローディング表示
+
+## 使用技術
+- React (Create React App)
+- JavaScript (ES6+)
+- PokeAPI[](https://pokeapi.co/)
+- CSS（カスタムスタイル）
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
